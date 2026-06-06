@@ -1,7 +1,7 @@
 # FarmCast — Agricultural Weather Intelligence
 
 > Built for the WeatherAI Developer Platform challenge.  
-> Deployed: **[farmcast.vercel.app](https://farmcast.vercel.app)** · Repo: **[github.com/you/farmcast](https://github.com/ianMuchesia/farmcast-intelligence)**
+> Deployed: **[farmcast.vercel.app](https://farmcast.vercel.app)** · Repo: **[github.com/ianMuchesia/farmcast-intelligence](https://github.com/ianMuchesia/farmcast-intelligence)**
 
 ---
 

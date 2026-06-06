@@ -43,10 +43,20 @@ export function WeatherHero({ data }: WeatherHeroProps) {
     .filter(Boolean)
     .join(', ');
 
-  // Format local time safely
+  // Format local time safely using the location's actual timezone
   let timeStr = current.time;
   try {
-    timeStr = format(new Date(current.time), "EEEE, dd MMM yyyy · HH:mm");
+    const d = new Date(current.time);
+    timeStr = new Intl.DateTimeFormat('en-GB', {
+      weekday: 'long',
+      day: '2-digit',
+      month: 'short',
+      year: 'numeric',
+      hour: '2-digit',
+      minute: '2-digit',
+      timeZone: location.timezone,
+      hour12: false
+    }).format(d).replace(',', ' ·');
   } catch (e) {
     // fallback
   }

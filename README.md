@@ -1,6 +1,6 @@
 # FarmCast — Agricultural Weather Intelligence
 
-> Deployed: **[farmcast.vercel.app](https://farmcast.vercel.app)** · Repo: **[github.com/ianMuchesia/farmcast-intelligence](https://github.com/ianMuchesia/farmcast-intelligence)**
+> Deployed: **[farmcast-intelligence.vercel.app](https://farmcast-intelligence.vercel.app)** · Repo: **[github.com/ianMuchesia/farmcast-intelligence](https://github.com/ianMuchesia/farmcast-intelligence)**
 
 ---
 
